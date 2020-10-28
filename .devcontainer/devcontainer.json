@@ -1,0 +1,15 @@
+{
+	"name": "Sincronia Server",
+	"build": {
+		"dockerfile": "Dockerfile",
+	},
+	"extensions": [
+		"ms-vscode.cpptools"
+	],
+	"runArgs": [
+		"--name",
+		"sincronia-server",
+		"--network",
+		"outcenter",
+	]
+}
